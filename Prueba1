@@ -1,0 +1,32 @@
+     public static void main(String[] args) {
+         System.out.println("Introduce un numero del 1 al 12: ");
+        Scanner con = new Scanner (System.in);
+       
+       int numero = con.nextInt()
+        
+       else if (numero == 1)
+          System.out.println("Enero tiene 31 dias");
+         else if (numero == 2)
+           System.out.println("Febrero tiene 28 dias");
+          else if (numero == 3)
+           System.out.println("Marzo tiene 30 dias");
+           else if (numero == 4)
+           System.out.println("Abril tiene 31 dias");
+            else if (numero == 5)
+          System.out.println("Mayo tiene 31 dias");
+             else if (numero == 6)
+           System.out.println("Junio tiene 30 dias");
+              else if (numero == 7)
+           System.out.println("Julio tiene 31 dias");
+              else if (numero == 8)
+           System.out.println("Agosto tiene 31 dias");
+                else if (numero == 9)
+           System.out.println("Septiembre tiene 30 dias");
+               else if (numero == 10)
+          System.out.println("Octubre tiene 31 dias");
+               else if (numero ==11)
+         System.out.println("Noviembre tiene 30 dias"); 
+            else if (numero ==12)
+         System.out.println("Diciembre tiene 31 dias");  
+         else if (numero > 12)
+          System.out.println("Error");
